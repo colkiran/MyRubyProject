@@ -1,0 +1,159 @@
+Ruby 1.9.3
+----------
+founder  of Ruby - Yukihiro Matsumoto - (matz)
+
+Perl		-	OOPS  - toy programming		- (2001 - 2010) - larry wall
+	
+Python		-	2011	-	Guido van russum	-	Django, Flask (microservices)
+
+Ruby 		-	2001  	-   completely OOPS	-  ruby on rails
+
+
+Script Tools
+------------
+1. Interpreted technology
+
+2. weakly typed data (loosely coupled data)
+
+a  = 10
+
+a = "hello"
+
+
+
+
+Strongly typed data
+-------------------
+int i;
+
+
+dot net		(purchase)
+-------
+crystal reports	-> reports
+
+Sales force analysis -> Reports
+
+2016 - ruby 2.x released
+------------------------
+
+ruby - 3.01 -> www.ruby.org / www.activestate.com
+
+ruby 1.9	-	25th Dec 2007
+
+
+Features of Ruby
+---------------
+1. Object Oriented
+
+2. flexible
+
+3. Mixins	-	
+
+4. Dynamic typing , Duck typing
+
+5. Exception handling
+
+6. Garbage Collector
+
+7. Keywords
+
+8. Variables
+
+9. Naming Convension
+
+10. Case sensitive
+
+11. Server Side Script
+
+irb = interactive ruby
+
++ operator => operator overloading => + can be used for addition and concatenation
+
+
+Data Types 
+===========
+1. Numbers
+
+2. Strings
+
+3. Symbols
+
+4. Hashes
+
+5. Arrays
+
+6. Booleans
+
+
+Numbers
+-------
+a. fixnum
+b. bignum
+c. float
+d. complex
+e. Rational 
+f. BigDecimal
+
+
+#! - shebang	-	path of your ruby executables
+
+#	- single line comments
+
+=begin 
+comment
+	a 
+	  block of code
+=end
+
+print "x :", x.class, "\n"
+print "y :", y.class, "\n"
+print "z :", z.class, "\n"
+
+print a.to_f.class, " ", a.to_f, "\n"
+print a.to_c.class, " ", a.to_c, "\n"
+print !!a.class, !!a, "\n"   # boolean
+
+puts "Number System".center(40,"-")
+
+Boolean in ruby
+---------------
+
+
+bit wise operators
+------------------ 
+5 | 3
+
+0101
+0011
+----
+0111		7
+
+
+0101 << 1
+1010 
+
+1000 << 1
+10000
+
+
+loops and control structures
+----------------------------
+
+control structures
+------------------
+1. if condition
+2. select case
+
+if condition
+	statements
+	statements
+	statements
+end
+
+
+
+
+
+
+
+
