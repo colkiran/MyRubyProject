@@ -1,0 +1,47 @@
+Arrays
+-------
+
+what is an array?
+
+1. collection of homogenous data
+2. memory allocation is contigious
+
+
+Arrays in ruby
+--------------
+1. collection of hetrogenous data
+2. memory allocation is not contigious
+
+Creating arrays
+---------------
+1. use literals  []
+2. use new class method
+
+Remove array elements
+---------------------
+1. pop
+2. shift
+3. delete
+4. uniq
+
+
+hashes
+------
+1. associative arrays
+
+  0    1    2    3    4
+['a', 'b', 'c', 'd', 'e']
+
+indexes should always be unique
+
+
+=> {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+keys of a hash is always unique 
+keys are user defined
+
+
+
+
+
+
