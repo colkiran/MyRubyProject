@@ -1,0 +1,16 @@
+using recursive calls:
+
+a. find the factorial of a number 
+
+b. find the fibanocci series
+
+
+lambdas
+-------
+are anonymous functions
+
+lambdas var1, var2, var3..: expression
+
+result of the expression will be the return value
+
+
