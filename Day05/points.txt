@@ -1,0 +1,111 @@
+Blocks
+------
+block of code
+
+
+1. do and end
+
+2. { }
+
+
+1. blocks called from a method or a function
+2. called as closures in other technologies
+		a. function enclosed inside another function	
+		b. variables declared in frame (function) is accessible after loosing the scope of the func
+
+
+
+1. what is the difference between function call and block call
+2. lambdas and procs
+
+DateTime
+--------
+a. Time
+b. DateTime
+c. Date
+
+strftime
+--------
+https://www.shortcutfoo.com/app/dojos/ruby-date-format-strftime/cheatsheet
+
+
+OOPS
+----
+
+Object Oriented Programming
+---------------------------
+1. polymorphism		- ?
+
+2. abstraction
+
+3. Encapsulation
+
+4. Inheritance
+
+
+Variables
+---------
+1. Global Variables		-	$
+
+2. Instance Variables		-	@
+
+3. Class Variable			- 	@@
+
+4. local variables			-	[a-z] / _
+
+5. Constants				-	[A - Z]
+
+
+
+1. class
+2. object of a class
+3. call member functions (methods)
+4. constructor
+5. instance variable
+6. class variable
+7. attr_accessor - access the instance variable outside the class
+
+Operator Overloading
+--------------------
+to_s =>
+
+
+---------------------------------------------------------------------------------
+
+Asssignment
+-----------
+Overide all arithematic operators
+---------------------------------
+1.  +
+2.  -
+3.  *
+4.  /
+5. //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
