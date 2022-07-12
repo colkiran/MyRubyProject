@@ -1,0 +1,86 @@
+1. what is the difference between function call and block call
+
+2. lambdas and procs
+
+
+File Handling
+-------------
+1. Text files
+2. csv files
+3. xml files
+4. Json files
+5. Database - Mysql
+6. Excel
+
+
+text files .txt files
+---------------------
+ascii format - no need of drivers
+
+
+Modes of opening a file
+------------------------
+"r" 		- read mode - default mode, only read the contents of the file if the file exists
+						   if the file does not exist then throws an error message
+
+
+"w"			- write mode - if the file exists the opens the file erases all the contents of the file
+							and write newly into the file. if the file does not exist then creates a 
+							new file and writes into the file
+
+
+"a"			- append mode - if the file exists with data then writes into the file without disturbing
+						     the old contents. if the file does not exist then creates a new file and 
+							 writes into the file
+			
+
+
+seek	- move the file handle from position to another
+
+FileObject.seek(offset, whence)
+
+offset - no of bytes that we would like to skip
+
+Whence is the position
+			
+		0	- BOF
+		1	- CP
+		2	- EOF
+
+fileObject.tell => will return the position of the file handle
+
+
+101,JAN,m,MGR,HR,1000
+102,FEB,f,PL,ADMIN,1500
+103,MAR,f,PM,FINANCE,2000
+104,APR,m,TL,PROCUREMENT,2500
+105,MAY,m,ADMIN,IT,3000
+106,JUN,m,SE,TESTING,3500
+107,JUL,f,HR,R & D,4000
+108,AUG,m,ARCHITECT,HELP DESK,4500
+109,SEP,f,ANALYST,STORES,5000
+110,OCT,m,DP,MARKETING,5500
+
+g = m, f, f, m, m
+
+gen = {'m'=>3, 'f'=>2}
+
+unique list (with and without CSV) 
+-----------
+1. dept
+2. desig
+
+3. sum of all salaries
+4. sum of salaries of females who work as HR
+
+
+
+
+
+
+
+
+
+
+
+ 
