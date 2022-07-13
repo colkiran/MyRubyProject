@@ -1,0 +1,81 @@
+Excel file
+----------
+					.xlsx			.xls			operation
+
+spread sheet		 no				 yes			 read / write
+rubyXL				 yes			  no			 read / write
+
+
+Regular Expressions
+-------------------
+
+Mastering Regex by Oreilly
+--------------------------
+
+glob style
+----------
+ls -l *.txt		=> * replaces the filename
+ls -l ?a*.txt  => ? represents a single character
+
+
+Basic Regular Expression
+-------------------------
+^			=> to match at the begning of the string
+$			=> to match at the end of the string
+
+.			=> sigle character 
+
+*			=> zero or more occurances
+?			=> zero or one occurance
++			=> one or more occurances
+{n}			=> exactly n times
+{n,}		=> min n times and max infinite times
+{n, m} 		=> min n times and max m times
+[]			=> character class
+()			=> grouping
+|			=> alternation
+\			=> supress the regular expression
+
+
+
+
+License Number
+--------------
+
+Validate the license number
+
+LCNO-KAR-05-2005-0897
+
+validations
+------------
+LCNO - no changes
+
+KAR - State - KAR, KER, APN, TND, TSN, MAH, GOA
+
+05 - RTO - 01 - 73
+
+2003 - year - 2000+
+
+0897 - lcno = 0001 - 9999 (no 0000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
