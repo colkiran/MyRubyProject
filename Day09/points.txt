@@ -1,0 +1,65 @@
+class c1
+
+	def fun()
+		pass
+
+
+class c2
+
+	def fun()
+		pass
+
+
+class c3(c1, c2)			# the class that gets inherited first will be the parent class
+	pass
+
+
+Objc3 = c3
+
+Objc3.fun()					(parent class fun method)
+
+
+Ruby on Rails
+-------------
+Rails is the webframe work that we get for ruby
+
+what is happens
+---------------
+java, ruby, python, c#, perl
+
+http:www.google.co.in	  = home.rb
+https:www.google.co.in
+
+
+
+
+1. to implement MVC pattern
+
+rails - 2.3.18
+
+Start your rails web server 
+
+rails server or rails s			=> ruby ./scripts/server
+
+rails console or rails c			
+
+rails generate	or rails g
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
